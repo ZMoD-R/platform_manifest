@@ -11,7 +11,7 @@
   <remote  name="ziyan"
            fetch="https://github.com/Ziyann/" />
 
-  <default revision="refs/tags/android-5.1.0_r3"
+  <default revision="refs/tags/android-5.1.0_r5"
            remote="aosp"
            sync-j="4"
            sync-c="true" />
