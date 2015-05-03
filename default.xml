@@ -11,7 +11,7 @@
   <remote  name="ziyan"
            fetch="https://github.com/Ziyann/" />
 
-  <default revision="refs/tags/android-5.1.0_r5"
+  <default revision="refs/tags/android-5.1.1_r1"
            remote="aosp"
            sync-j="4"
            sync-c="true" />
@@ -482,7 +482,7 @@
   <project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" revision="master" groups="pdk,darwin,x86" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8" groups="pdk,linux,arm" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,linux,arm" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="pdk,linux,arm" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" revision="master" groups="pdk,linux,arm" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" groups="pdk,linux,arm" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6" groups="pdk,linux" />
